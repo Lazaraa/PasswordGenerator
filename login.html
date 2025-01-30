@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfzvW6JR6XdfeiKI8_e3RDHuvS1eHJBEWBDvZrlJ8wNguVKoHwlphF4v_On5iNS_aQBTo&usqp=CAU" alt="Logo" class="logo">
+    <div class="login-container">
+        <h1>მოგესალმები!</h1>
+        <form onsubmit="return handleLogin(event)">
+            <div class="input-group">
+                <label for="username">სახელი</label>
+                <input type="text" id="username" placeholder="ჩაწერე სახელი" required>
+            </div>
+            <div class="input-group">
+                <label for="password">პაროლი</label>
+                <input type="password" id="password" placeholder="ჩაწერე პაროლი" required>
+            </div>
+            <button type="submit">Log In</button>
+            <p class="forgot-password"><a href="#"></a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
